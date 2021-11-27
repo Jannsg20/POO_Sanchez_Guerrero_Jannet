@@ -1,17 +1,17 @@
 /*
-Vamos a realizar un programa mediante el cual el usuario pueds gestionar
-Los pagos de los libros atrasados de la biblioteca
+Vamos a realizar un programa mediante el cual el usuario pueda gestionar
+los pagos de los libros atrasados de la biblioteca
 */
 
 
-//Librerias
+//librerias
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 
 public class Principal{
 
-
+    
     int choice;
         String text_menu;
         
@@ -72,16 +72,16 @@ public class Principal{
                 break;
 
             case 2:
-                //metodo
                 break;
             
             case 3:
-                //metodo
+                
                 break;
         
             default:
                 JOptionPane.showMessageDialog(null, "Vuelva pronto");
                 break;
         }
+        
     }
 }
