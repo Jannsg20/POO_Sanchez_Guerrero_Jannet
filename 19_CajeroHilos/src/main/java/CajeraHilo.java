@@ -24,9 +24,6 @@ public class CajeraHilo extends Thread {
         this.initialTime = initialTime;
     }
 
-    CajeraHilo(String cajero_Cesar, Cliente cliente1, long initialTime) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     public String getNombre() {
         return nombre;
